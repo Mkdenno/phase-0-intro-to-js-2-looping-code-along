@@ -1,12 +1,10 @@
-// Code your solutions in this file
 const writeCards=(names)=>{
     return names.map(name =>`Thank you, ${name}, for the wonderful surprise gift!`);
 }
-const countDown=(number) =>{
+const countDown=(number)=>{
     let i=number;
     while(i>=0){
-        console.log(i);
+        console.log(i)
         i--;
     }
-
 }
